@@ -13,6 +13,8 @@ for setup:
       - use deactivate instead of activate to get out of it
     - pip install req.txt
   - this should build all the javascript and python modules needed
+  NOTE:
+    - it is not recommended to change the structure of the files, the static folder and templates are the locations where flask looks for the necessary files, and changing the structure would require coding it as such in flask
   
 for use:
   - this is only created for development as of writing this
