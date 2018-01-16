@@ -26,6 +26,6 @@ for use:
   - the static javascript files are served from webpack-dev-server
     - the link to the static files is in index.html and points to the dev-server
     - the output for the bundle created is controlled in webpack.config file as well as all webpack dependencies
-    - the server can be run from .\node_modules\.bin\webpack-dev-server
+    - the server can be run from .\node_modules\\.bin\webpack-dev-server
       - this will create the bundle, host it and dynamically load
   - to access the application go to localhost:5000 (the default port) once both the python and webpack servers are up and running
